@@ -45,4 +45,29 @@ header{
 
 /* regole main */
 
-    /* regole sezioni sfondo */
+/* regole sezioni sfondo bianco */
+
+/* debug */
+section{
+    border: 1px solid black;
+    height: 550px;
+}
+
+.white{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 90px auto;
+    /* debug */
+    background-color: grey;
+    
+} 
+
+.img-sfondo-bianco, .descrizione-sect{
+    /* debug */
+    background-color: rgb(221, 67, 98);
+    height: 300px;
+    border: 1px solid black;
+    width: 40%;
+}
