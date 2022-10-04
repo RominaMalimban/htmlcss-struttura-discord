@@ -51,7 +51,8 @@ header{
 section{
     border: 1px solid black;
     height: 550px;
-}
+    background-color: rgba(198, 107, 74, 0.518);
+} /* fine debug */
 
 .white, .grey{
     display: flex;
@@ -61,12 +62,8 @@ section{
     margin: 90px auto;  
 } 
 
-.white{
-    /* debug */
-    background-color: blue;
-}
-
 .img-sfondo-bianco, .descrizione-sect{
+    width: 45%;
     /* debug */
     background-color: rgb(221, 67, 98);
     height: 300px;
@@ -77,3 +74,6 @@ section{
 .grey .img-sfondo-bianco{
     order: 1;
 }
+
+
+
