@@ -53,16 +53,18 @@ section{
     height: 550px;
 }
 
-.white{
+.white, .grey{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 70%;
-    margin: 90px auto;
-    /* debug */
-    background-color: grey;
-    
+    margin: 90px auto;  
 } 
+
+.white{
+    /* debug */
+    background-color: blue;
+}
 
 .img-sfondo-bianco, .descrizione-sect{
     /* debug */
@@ -70,4 +72,8 @@ section{
     height: 300px;
     border: 1px solid black;
     width: 40%;
+}
+
+.grey .img-sfondo-bianco{
+    order: 1;
 }
