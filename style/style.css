@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole generali */
+
+/* regole header */
+header{
+    /* debug */
+    height: 550px;
+    background-color: cornflowerblue;
+}
+
+#top-header li, .logo, #top-header button{
+    /* debug */
+    background-color: white;
+}
+
+#top-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    /* debug */
+    background-color: rgb(221, 67, 98);
+}
+
+#barra-nav{
+    display: flex;
+}
+
+#barra-nav li{
+    min-width: 40%;
+    justify-content: space-between;
+}
+
+.subheader{
+    width: 50%;
+    margin: 40px auto;
+    /* debug */
+    background-color: rgb(221, 67, 98);
+    height: 350px;
+}
+
+/* regole main */
+
+    /* regole sezioni sfondo */
