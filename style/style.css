@@ -8,6 +8,7 @@
 
 /* regole header */
 header{
+    height: 550px;
     /* debug */
     height: 550px;
     background-color: cornflowerblue;
@@ -101,3 +102,47 @@ section{
     border: 1px solid black;
 }
 
+/* regole footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.934);
+    height: 400px;
+    margin-top: 50px;
+}
+
+footer .col-area{
+    width: 80%;
+    margin: -5px auto;
+    /* debug */
+}
+
+footer .col-area{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+footer .col{
+    margin: 20px;
+    width: calc(100% / 5 - 40px );
+    /* debug */
+    background-color: rgb(221, 67, 98);
+    height: 200px;
+    background-color: 1px solid black;
+}
+
+.subfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo, footer button{
+    margin-top: 20px;
+    /* debug */
+    width: 90px;
+    height: 30px;
+    background-color: rgb(221, 67, 98);
+}
+
+.subfooter{
+    width: 80%;
+    margin: 0 auto;
+}
