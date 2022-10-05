@@ -61,7 +61,7 @@ section{
     justify-content: space-around;
     align-items: center;  
     width: 70%;
-    margin: 40px auto;
+    margin: 90px auto;
 } 
 
 .img-sfondo-bianco, .descrizione-sect{
@@ -82,7 +82,7 @@ section{
     margin: 90px auto;
     margin-bottom: 20px;
     /* debug */
-    height: 500px;
+    height: 550px;
 }
 
 .desc-section4, .subsection{
