@@ -110,19 +110,20 @@ footer{
 
 footer .col-area{
     width: 80%;
-    margin: -5px auto;
+    margin: 0 auto;
     /* debug */
 }
 
 footer .col-area{
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid white;
 }
 
 footer .col{
-    margin: 20px;
-    width: calc(100% / 5 - 40px );
+    margin: 20px 0;
     /* debug */
+    width: 200px;
     background-color: rgb(221, 67, 98);
     height: 200px;
     background-color: 1px solid black;
