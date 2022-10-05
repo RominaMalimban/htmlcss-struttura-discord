@@ -108,7 +108,7 @@ footer{
     margin-top: 50px;
 }
 
-footer .col-area{
+footer .col-area, footer .subfooter{
     width: 80%;
     margin: 0 auto;
     /* debug */
@@ -143,6 +143,6 @@ footer .logo, footer button{
 }
 
 .subfooter{
-    width: 80%;
+    width: 8                                                                                                                                                                                                                                                                                                                                                                                0%;
     margin: 0 auto;
 }
