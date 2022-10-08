@@ -1,0 +1,24 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* regole header */
+
+
+
+/* regole sections */
+
+
+
+
+/* regole footer */
