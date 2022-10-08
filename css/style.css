@@ -9,7 +9,7 @@
     width: 80%;
     margin: 0 auto;
     /* debug */
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 ul li{
@@ -71,7 +71,37 @@ nav div{
 
 /* regole sections */
 
+section{
+    /* debug */
+    min-height: 400px;
+    
+}
 
+.white-bg, .reverse{
+    display: flex;
+    justify-content: flex-end;
+    /* debug */
+    margin: 30px 0;
+}
 
+.img-section, .text-section{
+    /* debug */
+    height: 350px;
+    width: 40%;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.text-section{
+    margin-left: 50px;
+}
+
+.gray-bg{
+    background-color: #ccc;
+}
+
+.center{
+    text-align: center;
+}
 
 /* regole footer */
