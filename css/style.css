@@ -59,14 +59,7 @@ nav div{
     background-color: coral;
 }
 
-.sub-header a{
-    margin: 10px 0;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
-
-.sub-header h1, .sub-header p{
+.sub-header{
     text-align: center;
 }
 
@@ -115,4 +108,5 @@ section{
     height: 400px;
     background-color: coral ;
 }
+
 /* regole footer */
