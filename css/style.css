@@ -12,9 +12,62 @@
     border: 1px solid black;
 }
 
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* regole header */
+header{
+    /* debug */
+    min-height: 500px;
+    background-color: cornflowerblue;
+}
 
+nav{
+    padding: 10px 0;
+}
 
+nav div{
+    /* debug */
+    background-color: coral;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-nav li{
+    padding: 0 5px;
+}
+
+.sub-header{
+    width: 60%;
+    margin: 100px auto;
+    /* debug */
+    background-color: coral;
+}
+
+.sub-header h1, .sub-header p{
+    text-align: center;
+}
+
+.sub-header button{
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+}
 
 /* regole sections */
 
