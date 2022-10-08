@@ -81,6 +81,9 @@ section{
 .white-bg, .reverse{
     display: flex;
     justify-content: flex-end;
+}
+
+.white-bg, .reverse, .last-section{
     /* debug */
     margin: 30px 0;
 }
@@ -98,11 +101,18 @@ section{
 }
 
 .gray-bg{
-    background-color: #ccc;
+    background-color: rgb(224, 223, 223);
 }
 
-.center{
+.last-section{
     text-align: center;
 }
 
+.last-section img{
+    margin: 30px 0;
+    /* debug */
+    width: 600px;
+    height: 400px;
+    background-color: coral ;
+}
 /* regole footer */
